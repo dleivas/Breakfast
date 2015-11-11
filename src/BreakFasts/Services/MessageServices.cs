@@ -46,11 +46,11 @@ namespace BreakFasts.Services
         
         public Task SendSmsAsync(string number, string message)
         {
-            var twilio = new Twilio.TwilioRestClient(
-                Options.SID,           // Account Sid from dashboard
-                Options.AuthToken);    // Auth Token
+            //var twilio = new Twilio.TwilioRestClient(
+            //    Options.SID,           // Account Sid from dashboard
+            //    Options.AuthToken);    // Auth Token
 
-            var result = twilio.SendMessage(Options.SendNumber, number, message);
+            //var result = twilio.SendMessage(Options.SendNumber, number, message);
             // Use the debug output for testing without receiving a SMS message.
             // Remove the Debug.WriteLine(message) line after debugging.
             // System.Diagnostics.Debug.WriteLine(message);
