@@ -36,7 +36,6 @@
   "commands": {
     "ef": "EntityFramework.Commands",
     "gen": "Microsoft.Framework.CodeGeneration",
-    "Kestrel": "Microsoft.AspNet.Server.Kestrel",
     "web": "Microsoft.AspNet.Server.Kestrel"
   },
 
